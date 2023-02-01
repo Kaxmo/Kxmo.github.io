@@ -1,202 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial;
-      background-color: #18191A;
-   }
-
-/* Style the tab */
-.tab {
-   box-shadow: 2px 2px 20px black;
-  overflow: hidden;
-  border: 1px solid white;
-  background-color: #24252A;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-   box-shadow: 2px 2px 20px black;
-   color: white;
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #23395d;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #203354;
-}
- 
-/* Style the tab content */
-.tabcontent {
-   box-shadow: 2px 2px 20px black;
-   color: white;
-   background-color:  #18191A;
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid white;
-  border-top: none;
-  
-}
-   a {
-      cursor: pointer;
-      color: white;
-      text-decoration: none;
-   }
-.card{
-color: white;
-   text-align: center;
-   background:  #24252A;
-   width: 300px;
-   display: inline-block;
-   box-shadow: 2px 2px 20px black;
-   border-radius: 5px; 
-   margin: 2%;
-    }
-   .c-btn{
-      font-family: "Roboto", sans-serif;
-      font-size: 10px;
-      font-weight: bold;
-      background: grey;
-      width: 50px;
-      padding: 6px;
-      text-decoration: none;
-      text-transform: uppercase;
-      color: #fff;
-      border-radius: 5px;
-      cursor: pointer;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   }
-   
-.box1 {
-   margin: 10px;
-   border: 3px solid white;
-   max-width: 1400px;
-   width: 500%;
-   margin: auto;
-   height: 90vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   right: 0;
-   left: 0;
-   bottom: -50;
-   margin: auto;
-}
-   
-   .box2 {
-   margin: 10px;
-   border: 3px solid white;
-   max-width: 1100px;
-   width: 500%;
-   margin: auto;
-   height: 90vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   right: 0;
-   left: 0;
-   bottom: -50;
-   margin: auto;
-}
-</style>
-</head>
-<body>
-   <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">Home</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Submit A Gxme</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Gxmes</button>
-      <button class="tablinks" onclick="openCity(event, 'Unblxck')">Unblxcker</button>
-      <a href="https://google.com" ><button class="tablinks" onclick="openCity(event, 'Panic')">Panic Button</button></a>
+   <head>
+      <title>Zuquv-Gallery</title>
+      <link rel="stylesheet" href="Zuquv.css">
+   </head>
+   <body>
       
-</div>
-
-<div id="London" class="tabcontent">
-  <h3>Home</h3>
-   <iframe class="box1" src="https://website3517849.nicepage.io/?version=bbdeaa5c-79e0-47de-9f75-85499dea0034" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-</div>
-
-<div id="Paris" class="tabcontent">
-  <h3>Submit A Gxme</h3>
-   <iframe class="box2" src="https://forms.gle/4LcydsTYVYXTrcKH6" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Gxmes</h3>
-  <div class="card">
-<div class="title">
- <h1>
-Gun Spin</h1>
-</div>
-<div class="des">
- <p>Uploaded by: kazmo</p>
-<a class="c-btn" target="_blank" href="GunSpin.html">Open Link</a>
-</div>
-</div>
-  <div class="card">
-<div class="title">
- <h1>
-1v1.lol</h1>
-</div>
-<div class="des">
- <p>Uploaded by: kazmo</p>
-<a class="c-btn" target="_blank" href="1v1.html">Open Link</a>
-</div>
-</div>
-  <div class="card">
-<div class="title">
- <h1>
-paper.io</h1>
-</div>
-<div class="des">
- <p>Uploaded by: kazmo</p>
-<a class="c-btn" target="_blank" href="Paper.html">Open Link</a>
-</div>
-</div>
-   
-   
-</div>
-   
-   <div id="Unblxck" class="tabcontent">
-  <h1>Unblxcker</h1>
-      <h2>Here are the lists of some of the working unblxckers that are currently working right now.</h2>
-      <a href="#" target="_blank"><h3>- Abyss</h3></a>
-    
+      <ul class="sidebar">
+      <li class="sidebar-brand"><a href="">Game Library</a></li>
+      <li><a href="https://classroom.google.com/" target="_blank">Panic!</a></li>
+      <li><a href="#">Submit Games</a></li>
+      </ul>
       
-      <div id="Panic" class="tabcontent">
-  <h3>Panic Button!!</h3>
- 
-</div>
-   
-
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-   
-</body>
-</html> 
+      
+      <div class="wrapper">
+      <div class="parent">
+         <div class="child bg-one"></div>
+      </div>
+         
+         <div class="parent">
+         <div class="child bg-two"></div>
+      </div>
+         
+         <div class="parent">
+         <div class="child bg-three"></div>
+      </div>
+         
+         <div class="parent">
+         <div class="child bg-four"></div>
+      </div>
+         
+         <div class="parent">
+         <div class="child bg-five"></div>
+      </div>
+         
+         <div class="parent">
+         <div class="child bg-six"></div>
+      </div>
+         
+         <div class="parent">
+         <div class="child bg-seven"></div>
+      </div>
+         
+         <div class="parent">
+         <div class="child bg-eight"></div>
+      </div>
+         
+      </div>
+      
+      <script src="Zuquv.js"></script>
+   </body>
+</html>
