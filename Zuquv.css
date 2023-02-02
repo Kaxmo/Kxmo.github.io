@@ -110,35 +110,35 @@ body {
 
 
 .bg-one {
-   background: url(shellshockers.jpg)
+   background: url(images/shellshockers.jpg)
 }
 
 .bg-two {
-   background: url(subwaysurfers.jpg)
+   background: url(images/subwaysurfers.jpg)
 }
 
 .bg-three {
-   background: url(justfall.jpg)
+   background: url(images/justfall.jpg)
 }
 
 .bg-four {
-   background: url(ducklife.jpg)
+   background: url(images/ducklife.jpg)
 }
 
 .bg-five {
-   background: url(crossyroad.jpg)
+   background: url(images/crossyroad.jpg)
 }
 
 .bg-six {
-   background: url(cookieclicker.jpg)
+   background: url(images/cookieclicker.jpg)
 }
 
 .bg-seven {
-   background: url(1v1.jpg)
+   background: url(images/1v1.jpg)
 }
 
 .bg-eight {
-   background: url(smashkarts.jpg)
+   background: url(images/smashkarts.jpg)
 }
 
 .parent:hover .child{
