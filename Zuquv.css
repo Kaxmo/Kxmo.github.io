@@ -212,3 +212,7 @@ body {
    transform: scale(1.2);
 }
 
+.parent2:hover .child2{
+   transform: scale(1.2);
+}
+
