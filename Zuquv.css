@@ -108,6 +108,41 @@ body {
    transition: all 1.1s;
 }
 
+.wrapper2 {
+   width: 930px;
+   height: auto;
+   float: right;
+   margin: 40px;
+}
+
+.parent2 {
+   width: 20%;
+   margin: 20px;
+   height: 200px;
+   overflow: hidden;
+   position: relative;
+   display: inline-block;
+   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+}
+
+.child2 {
+   background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   transition: all 1.1s;
+}
+
+.wrapper h1{
+   color: Black;
+   text-align: center;
+}
+
+.wrapper2 h1{
+   color: Black;
+   text-align: center;
+}
 
 .bg-one {
    background: url(images/shellshcokers.jpg)
@@ -139,6 +174,38 @@ body {
 
 .bg-eight {
    background: url(images/smashkarts.jpg)
+}
+
+.bg-onee {
+   background: url(file:///home/chronos/u-305b77e02ef687d79dd7b5ca8c6db65db2490cfe/MyFiles/Downloads/images.jpeg)
+}
+
+.bg-twoo {
+   background: url(file:///home/chronos/u-305b77e02ef687d79dd7b5ca8c6db65db2490cfe/MyFiles/Downloads/images.jpeg)
+}
+
+.bg-threee {
+   background: url(file:///home/chronos/u-305b77e02ef687d79dd7b5ca8c6db65db2490cfe/MyFiles/Downloads/images.jpeg)
+}
+
+.bg-fourr {
+   background: url(file:///home/chronos/u-305b77e02ef687d79dd7b5ca8c6db65db2490cfe/MyFiles/Downloads/images.jpeg)
+}
+
+.bg-fivee {
+   background: url(file:///home/chronos/u-305b77e02ef687d79dd7b5ca8c6db65db2490cfe/MyFiles/Downloads/images.jpeg)
+}
+
+.bg-sixx {
+   background: url(file:///home/chronos/u-305b77e02ef687d79dd7b5ca8c6db65db2490cfe/MyFiles/Downloads/images.jpeg)
+}
+
+.bg-sevenn {
+   background: url(file:///home/chronos/u-305b77e02ef687d79dd7b5ca8c6db65db2490cfe/MyFiles/Downloads/images.jpeg)
+}
+
+.bg-eightt {
+   background: url(file:///home/chronos/u-305b77e02ef687d79dd7b5ca8c6db65db2490cfe/MyFiles/Downloads/images.jpeg)
 }
 
 .parent:hover .child{
