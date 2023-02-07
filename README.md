@@ -1,9 +1,10 @@
 # Kxmo.github.io
-link: https://kaxmo.github.io/Kxmo.github.io/
+Website-link: https://kaxmo.github.io/Kxmo.github.io/
+= = = = = = = = = = = = = = = = = = = = = = = = = = =
+What Im working on currently for this website: 
 
-What Im working on currently:
 - adding more gaxme links
-- password protection (lol why not)
-- adding more unblxcker links 
+- adding more pr0xie links 
 
-I will accept suggestions :)
+= = = = = = = = = = = = = = = = = = = = = = = = = = = 
+I'm currently accepting suggestions :)
