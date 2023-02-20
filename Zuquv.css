@@ -1,117 +1,45 @@
 
-.btn-default {
-color: #333;
-background-color: #fff;
-border-color: #ccc;
-}
-
-.btn {
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0;
-font-size: 14px;
-font-weight: 400;
-line-height: 1.42857143;
-text-align: center;
-white-space: nowrap;
-vertical-align: middle;
-cursor: pointer;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-background-image: none;
-border: 1px solid transparent;
-border-radius: 4px;
-}
-
-#page-content-wrapper {
-width: 100%;
-padding: 15px;
-}
-
-#page-content-wrapper {
-padding: 20px;
-}
-
-.sidebar {
-  list-style-type:none;
-  background-color:#333;
-  width:230px;
-  height:100%;
-  top:0;
-  bottom:0;
-  left:0;
-  text-align:left;
-  position: fixed;
-  margin: 0;
-  padding: 0;
-   
-  list-style: none;
-  transition:1s ease;
-}
-
-.sidebar a {
-  text-decoration:none;
-  color:white;
-  transition:1s ease;
-}
-
-.sidebar li {
-  text-indent: 20px;
-  line-height: 40px;
-  transition:0.5s ease;
-}
-
-.sidebar li:hover {
-  background-color:#777;
-  cursor:pointer;
-  text-indent: 30px;
-}
-
-.sidebar > .sidebar-brand {
-height: 65px;
-font-size: 18px;
-line-height: 60px;
-}
-
-
-html,
 body {
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
+   background-image: linear-gradient(120deg,#3e32a8,#e310c7);
 }
 
-.wrapper {
-   width: 930px;
-   height: auto;
-   float: right;
-   margin: 40px;
-}
-
-.parent {
+.wrapper2 h1{
+   color: white;
+   text-align: center;
+   float: center;
    width: 20%;
    margin: 20px;
-   height: 200px;
-   overflow: hidden;
-   position: relative;
-   display: inline-block;
+   height: 40px;
    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
    border-radius: 10px;
 }
 
-.child {
-   background-repeat: no-repeat;
-   height: 100%;
-   width: 100%;
-   background-size: cover;
-   transition: all 1.1s;
+.wrapper3 h1{
+   color: white;
+   text-align: center;
+   float: center;
+   width: 20%;
+   margin: 20px;
+   height: 40px;
+   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
 }
 
+
 .wrapper2 {
-   width: 930px;
+   width: auto;
    height: auto;
-   float: right;
+   float: center;
+   margin: 40px;
+}
+
+.wrapper3 {
+   width: auto;
+   height: auto;
+   float: center;
    margin: 40px;
 }
 
@@ -126,7 +54,7 @@ body {
    border-radius: 10px;
 }
 
-.child2 {
+img{
    background-repeat: no-repeat;
    height: 100%;
    width: 100%;
@@ -134,85 +62,19 @@ body {
    transition: all 1.1s;
 }
 
-.wrapper h1{
-   color: Black;
-   text-align: center;
+.parent3 {
+   width: 20%;
+   margin: 20px;
+   height: 200px;
+   overflow: hidden;
+   position: relative;
+   display: inline-block;
+   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
 }
 
-.wrapper2 h1{
-   color: Black;
-   text-align: center;
-}
 
-.bg-one {
-   background: url(images/shellshcokers.jpg)
-}
-
-.bg-two {
-   background: url(images/subwaysurfers.jpg)
-}
-
-.bg-three {
-   background: url(images/justfall.jpg)
-}
-
-.bg-four {
-   background: url(images/ducklife.jpg)
-}
-
-.bg-five {
-   background: url(images/crossyroad.jpg)
-}
-
-.bg-six {
-   background: url(images/cookieclicker.jpg)
-}
-
-.bg-seven {
-   background: url(images/1v1.jpg)
-}
-
-.bg-eight {
-   background: url(images/smashkarts.jpg)
-}
-
-.bg-onee {
-   background: url(images/nope.jpg)
-}
-
-.bg-twoo {
-   background: url(images/nope.jpg)
-}
-
-.bg-threee {
-   background: url(images/nope.jpg)
-}
-
-.bg-fourr {
-   background: url(images/nope.jpg)
-}
-
-.bg-fivee {
-   background: url(images/nope.jpg)
-}
-
-.bg-sixx {
-   background: url(images/nope.jpg)
-}
-
-.bg-sevenn {
-   background: url(images/nope.jpg)
-}
-
-.bg-eightt {
-   background: url(images/nope.jpg)
-}
-
-.parent:hover .child{
-   transform: scale(1.2);
-}
-
-.parent2:hover .child2{
+img:hover {
    transform: scale(1.2);
 }
 
